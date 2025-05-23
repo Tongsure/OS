@@ -1,0 +1,74 @@
+Chapter 1: Introduction to Centos Linux
+/boot: for startup OS
+/: Root Directory
+
+
+Chapter 2:
+#reboot: mean to restart
+#poweroff: mean to shutdown
+#pm-suspend-hybrid: to sleep
+ls: list contents of directory
+ls -a: list all hidden content of directory
+ls -l: list in detail
+ls -lh: list with exact file size
+vi<path_name>/<file_name>
+#undo: to undo
+#touch file_name: to create multiple file
+#init 3: switch to text mod
+Chapter 3: Package Management
+#rpm -qa: view package installed on the system
+#rm -rf /var/run/yum.pid
+- #yum clean all
+- #yum search firefox
+- #yum update firefox (need the internate connection)
+- #yum list all
+- #yum list installed
+- #yum install weget
+- #yum install wget -y
+- #yum groupinstall 'x window system'
+- #yum install google-chrome
+- #rpm -qa
+
+
+Chapter 4:
+#cat > Test1: to create file
+#cat test1: to view the file
+#rm<File Name>: to remove file
+#cp file1.
+#rm -rf /var/run/yum.pid
+- #yum clean all
+- #yum search firefox
+- #yum update firefox (need the internate connection)
+- #yum list all
+- #yum list installed
+- #yum install weget
+- #yum install wget -y
+- #yum groupinstall 'x window system'
+- #yum install google-chrome
+- #rpm -q
+#rm -rf /var/run/yum.pid
+- #yum clean all
+- #yum search firefox
+- #yum update firefox (need the internate connection)
+- #yum list all
+- #yum list installed
+- #yum install weget
+- #yum install wget -y
+- #yum groupinstall 'x window system'
+- #yum install google-chrome
+- #rpm -q txt file2.txt: to copy file
+#mkdir: to create directory
+#mv: to move file
+#find: to find file
+
+
+Chapter 5:
+#useradd: to add user
+#passwd: to put password
+#useradd -r: to delete user
+#passwd -l: to lock user
+#passwd -u: to unlock user
+#usermod -l ra: ra is the new username
+#gpasswd -M: add a group name
+-R: for change permission for its sub directory
+#ln: create link account
